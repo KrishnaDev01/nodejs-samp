@@ -1,1 +1,1 @@
-[![Author](https://img.shields.io/badge/author-Krishna-Srichan.svg)](https://facebook.com)
+[![Author](https://img.shields.io/badge/author-KrishnaDev.svg)](https://facebook.com)
