@@ -1,8 +1,14 @@
 [![Author](https://img.shields.io/badge/author-KrishnaDev-Srichan.svg)](https://www.facebook.com/profile.php?id=61563570525041&mibextid=ZbWKwL)
 
-# ติดตั้งผ่าน git หรือจะดาวน์โหลด zip เอาก็ได้
+# ติดตั้งผ่าน git หรือติดตั้งผ่านแบบ zip
 ```bash
 git clone https://github.com/KrishnaDev01/View-Samp-Info
 ```
 # ตัวอย่าง
-![example](https://img5.pic.in.th/file/secure-sv1/Screenshot_25670908_164524.jpg)
+![main](https://img5.pic.in.th/file/secure-sv1/Screenshot_25670908_164524.jpg)
+
+![main2](https://img5.pic.in.th/file/secure-sv1/Screenshot_25670908_164605.jpg) 
+
+# ตัวอย่างข้อผิดพลาดเบื้องต้น
+
+![main2](https://img2.pic.in.th/pic/Screenshot_25670908_164630.jpg) 
