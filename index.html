@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Primary Meta Tags -->
+<title>ดูข้อมูลเซิฟ & ผู้เล่นออนไลน์
+ผ่านไอพี</title>
+<meta name="title" content="ดูข้อมูลเซิฟ & ผู้เล่นออนไลน์
+ผ่านไอพี" />
+<meta name="description" content="ดูข้อมูลเซิฟโง่เซิฟควาย  ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://samp-info.onrender.com" />
+<meta property="og:title" content="ดูข้อมูลเซิฟ & ผู้เล่นออนไลน์
+ผ่านไอพี" />
+<meta property="og:description" content="ดูข้อมูลเซิฟโง่เซิฟควาย  ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย" />
+<meta property="og:image" content="
+https://img5.pic.in.th/file/secure-sv1/images-3f6369a701c61e96d.th.jpeg" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://samp-info.onrender.com" />
+<meta property="twitter:title" content="ดูข้อมูลเซิฟ & ผู้เล่นออนไลน์
+ผ่านไอพี" />
+<meta property="twitter:description" content="ดูข้อมูลเซิฟโง่เซิฟควาย  ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย ดูข้อมูลเซิฟโง่เซิฟควาย" />
+<meta property="twitter:image" content="https://img5.pic.in.th/file/secure-sv1/images-3f6369a701c61e96d.th.jpeg" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
+
+
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            color: #555;
+        }
+        input {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            margin-top: 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #000;
+        }
+        #displayData {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #2e2e2e;
+            border: 1px solid #444;
+            border-radius: 4px;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+            overflow: auto;
+        }
+        #displayData pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <label for="ip">IP Address:</label>
+            <input type="text" id="ip" required>
+
+            <label for="port">Port:</label>
+            <input type="number" id="port" required>
+
+            <button type="button" onclick="send()">ส่งข้อมูล</button>
+        </div>
+
+        <h2>Send With json</h2>
+        <div>
+            <pre id="displayData"></pre>
+        </div>
+
+        <div class="footer">
+            <p>สร้างโดย: KrishnaDev</p>
+        </div>
+    </div>
+
+<script>
+    async function send() {
+        const displayIp = document.getElementById('ip').value;
+        const displayPort = document.getElementById('port').value;
+
+        if (!displayIp || !displayPort) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Please enter both IP and Port!'
+            });
+            return; // Exit function early if validation fails
+        }
+
+        const jsonData = JSON.stringify({ IP: displayIp, PORT: displayPort }, null, 2);
+        document.getElementById('displayData').textContent = jsonData;
+        
+localStorage.setItem("ip", displayIp);
+        localStorage.setItem("port", displayPort);
+
+        // Display stored values in the input fields
+        document.getElementById("ip").value = localStorage.getItem("ip");
+        document.getElementById("port").value = localStorage.getItem("port");
+
+        try {
+            const response = await fetch(`/api/samp/details/${displayIp}/${displayPort}`);
+            const responseData = await response.json();
+
+            if (response.ok) {
+                
+                Swal.fire({
+                    title: 'ข้อมูลทั้งหมด',
+                    html: `<pre style="text-align: left; font-size: 11px; line-height: 1.1;">${JSON.stringify(responseData, null, 2)}</pre>`, // Adjusting font size and line height
+                  
+                    confirmButtonText: 'ปิด'
+                });
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'ไม่สำเร็จ!',
+                    text: responseData.message
+                });
+            }
+        } catch (error) {
+            Swal.fire({
+                icon: 'error',
+                title: 'ไม่สำเร็จ!',
+                text: responseData.message
+            });
+        }
+    }
+</script>
+
+
+</body>
+</html>
