@@ -1,6 +1,6 @@
 [![Author](https://img.shields.io/badge/author-KrishnaDev-Srichan.svg)](https://www.facebook.com/profile.php?id=61563570525041&mibextid=ZbWKwL)
 
-# ติดตั้งผ่าน คำสั่ง git หรือจะโหลดเอาก็ได้
+# Installation
 ```bash
 git clone https://github.com/KrishnaDev01/View-Samp-Info
 ```
