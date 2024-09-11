@@ -2,7 +2,7 @@
 
 # การติดตั้ง
 ```bash
-git clone https://github.com/KrishnaDev01/View-Samp-Info
+git clone https://github.com/Kitfixbug/View-Samp-Info
 ```
 # ตัวอย่าง
 ![main](https://img5.pic.in.th/file/secure-sv1/Screenshot_25670908_164524.jpg)
